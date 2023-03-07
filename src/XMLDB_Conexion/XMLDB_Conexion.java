@@ -22,7 +22,8 @@ public class XMLDB_Conexion {
     public static void main(String[] args) {
         Collection col = null;
         try {
-            col = obtenColeccion("/apps/shared-resources");
+            //col = obtenColeccion("/apps/shared-resources");
+            col = obtenColeccion("/cursillo");
             System.out.println("Colección actual: " + col.getName());
 
             int numHijas = col.getChildCollectionCount();
