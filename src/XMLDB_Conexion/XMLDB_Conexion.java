@@ -35,7 +35,7 @@ public class XMLDB_Conexion {
                 }
             }
             int numDocs = col.getResourceCount();
-            System.out.println(numDocs + " doocumentos.");
+            System.out.println(numDocs + " documentos.");
             if (numDocs > 0) {
                 String nomDocs[] = col.listResources();
                 for (int i = 0; i < numDocs; i++) {
